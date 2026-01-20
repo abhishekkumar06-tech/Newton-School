@@ -27,15 +27,15 @@ body{
     width: 100%;
     height: 44px;
 }
-.nav-right{
+.nav-left{
     display: flex;
 }
-.nav-right-btn-1{
+.nav-left-btn-1{
     position: relative;
     margin-top: auto;
     margin-bottom: auto;
 }
-.nav-right-btn{
+.nav-left-btn{
     display: flex;
     padding: 4px 8px;
     align-items: center;
@@ -56,19 +56,19 @@ body{
     box-shadow: rgba(43, 48, 59, 0.12) 0px 1px 4px 0px;
     min-height: 40px;
 }
-.nav-right-btn-2{
+.nav-left-btn-2{
     display: flex;
     align-items: flex-end;
     margin: 0px 0px 0px 29px;
     justify-content: center;
 }
-.nav-right-btn-links{
+.nav-left-btn-links{
     text-decoration: none;
     color: #5b6271;
     font-size: 14px;
     padding: 10px;
 }
-.nav-right-btn-logo{
+.nav-left-btn-logo{
     width: 20px;
     height: 20px;
     display: flex;
@@ -94,17 +94,17 @@ body{
     background-color: #ffffff;
     /* color: #0673f9; */
 }
-.nav-left{
+.nav-right{
     height: 24px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.nav-left-btn{
+.nav-right-btn{
     display: flex;
     gap: 0px;
 }
-.nav-left-btn-1{
+.nav-right-btn-1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -114,4 +114,55 @@ body{
     height: 36px;
     background: #e1e5ea;
 }
-
+.nav-right-btn-2{
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-right-btn-2a{
+    position: relative;
+    color: #16191d;
+}
+.nav-right-btn-2b{
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 102, 255);
+    border-radius: 10px;
+    position: relative;
+    bottom: 9px;
+    right: 20px;
+    border: 2px solid #fff;
+}
+.nav-right-btn-3{
+    position: relative;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right-btn-4{
+    position: relative;
+    color: #16191d;
+    margin: 4px 0px;
+    font-family: 'Mona Sans';
+    outline: 0px !important;
+}
+.nav-right-btn-4a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: transparent;
+    height: 100%;
+    padding: 2px;
+}
+.nav-right-btn-profile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    display: block;
+    cursor: pointer;
+    outline: 0px !important;
+}
