@@ -34,6 +34,7 @@ body{
     position: relative;
     margin-top: auto;
     margin-bottom: auto;
+    cursor: pointer;
 }
 .nav-left-btn{
     display: flex;
@@ -119,6 +120,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .nav-right-btn-2a{
     position: relative;
@@ -140,6 +142,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .nav-right-btn-4{
     position: relative;
@@ -147,6 +150,7 @@ body{
     margin: 4px 0px;
     font-family: 'Mona Sans';
     outline: 0px !important;
+    cursor: pointer;
 }
 .nav-right-btn-4a{
     display:flex;
@@ -165,4 +169,42 @@ body{
     display: block;
     cursor: pointer;
     outline: 0px !important;
+}
+.main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.main-container{
+    width: 100vw;
+}
+.main-container-top{
+    position: relative;
+    width: calc(100% - 240px);
+    margin: 24px auto 56px;
+}
+.main-container-top .carousel-indicator{
+    top: calc(100% + 16px);
+}
+.carousel-indicator{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicator li{
+    border-radius: 2px;
+    background: #B2B9C7;
+    height: 8px;
+    width: 8px;
+    border-top: 0px;
+    border-bottom: 0px;
 }
