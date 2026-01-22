@@ -174,6 +174,7 @@ body{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    min-height: calc(100dvh - 56px);
     background-color: #fff;
 }
 .main-container{
@@ -207,4 +208,95 @@ body{
     width: 8px;
     border-top: 0px;
     border-bottom: 0px;
+}
+.carousel-indicator .active{
+    background-color: #0B0C0E;
+}
+.carousel-inner{
+    display: flex;
+    border-radius: 16px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-inner1{
+    display: block;
+    width: 100%;
+    position: relative;
+    font-family: Switzer;
+    font-style: normal;
+    border-radius: 16px;
+    overflow: hidden;
+    outline: white solid 40px;
+    border: 1px solid rgb(232, 234, 238);
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(249, 250, 251) 100%), radial-gradient(2601.83% 260.24% at 100% 100%, rgb(23, 105, 77) 0%, rgb(20, 19, 21) 100%);
+    height: 240px;
+    float: left;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+.carousel-inner1-img{
+    width: 550px;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    vertical-align: middle;
+    border-style: none;
+}
+@media screen and (min-width: 600px) {
+    .carousel-inner1-content {
+        width: 70%;
+        padding: 0px 60px;
+    }
+}
+.carousel-inner1-content{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 16px;
+    gap: 24px;
+    z-index: 5;
+    position: relative;
+}
+@media screen and (min-width: 600px) {
+    .carousel-inner1-content1 {
+        flex-shrink: 1;
+        max-width: 600px;
+        min-width: 250px;
+    }
+}
+.carousel-inner1-content1{
+    display: flex;
+    flex-direction: column;
+}
+.carousel-inner1-content1a{
+    color: rgb(43, 48, 59);
+    font-size: 28px;
+    font-weight: 550;
+    line-height: 36px;
+}
+.carousel-inner1-content1a .tryouts{
+    color: rgb(239, 157, 26);
+}
+.carousel-inner1-content1b{
+    color: rgb(87, 97, 117);
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding-top: 12px;
+}
+
+
+@media screen and (min-width: 1080px) {
+    .carousel-inner1-content2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left;
+        gap: 12px;
+    }
 }
