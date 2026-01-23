@@ -221,9 +221,17 @@ body{
     width: 8px;
     border-top: 0px;
     border-bottom: 0px;
+    box-sizing: initial;
+    flex:0 1 auto;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    opacity: 0.5;
 }
 .carousel-indicator .active{
     background-color: #0B0C0E;
+    opacity: 1;
 }
 .carousel-inner{
     display: flex;
@@ -459,7 +467,75 @@ img,svg{
     padding: 8px;
     width: 40px;
     min-width: 40px;
+    cursor: pointer;
 }
 .prev-btn-arrow{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    line-height: 1rem;
+    backface-visibility: hidden;
+    text-decoration: inherit;
+    opacity: 1;
+    text-align: center;
+    font-size: 24px;
+    color: inherit;
+    width: 16px;
+    height: 24px;
+}
+.carousel-control-next{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 12px;
+    right: -80px;
+    top: 38%;
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: initial;
+}
+.next-btn{
+    font-size: 14px;
+    border-radius: 8px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Mona Sans';
+    gap: 8px;
+    color: #16191D;
+    border: 1.5px solid #E1E5EA;
+    outline: transparent solid 0px;
+    background:  #ffffff;
+    height:  40px;
+    min-height:40px;
+    padding:  8px;
+    width: 40px;
+    min-width:40px;
+    cursor: pointer;
+}
+.next-btn-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    line-height: 1rem;
+    backface-visibility: hidden;
+    text-decoration: inherit;
+    opacity: 1;
+    text-align: center;
+    font-size: 24px;
+    color: inherit;
+    height: 24px;
+    width: 16px;
 }
