@@ -117,6 +117,7 @@ body{
 .nav-right-btn{
     display: flex;
     gap: 0px;
+    cursor: pointer;
 }
 .nav-right-btn-1{
     display: flex;
@@ -126,7 +127,7 @@ body{
     gap: 10px;
     width: 1px;
     height: 36px;
-    background: #e1e5ea;
+    background: #E1E5EA;
 }
 .nav-right-btn-2{
     border-radius: 4px;
@@ -163,7 +164,6 @@ body{
     margin: 4px 0px;
     font-family: Mona Sans;
     outline: 0px !important;
-    cursor: pointer;
 }
 .nav-right-btn-4a{
     display:flex;
@@ -173,6 +173,14 @@ body{
     background: transparent;
     height: 100%;
     padding: 2px;
+    cursor: pointer;
+}
+.nav-right-btn-4a:hover{
+    /* background-color: #b3d4fc; */
+    background-color: #eceff3;
+    color: #000;
+    text-shadow: none;
+    border-radius: 8px;
 }
 .nav-right-btn-profile{
     width: 32px;
@@ -469,6 +477,9 @@ img,svg{
     min-width: 40px;
     cursor: pointer;
 }
+.prev-btn:hover{
+    background-color: #f6f7f9;
+}
 .prev-btn-arrow{
     display: flex;
     align-items: center;
@@ -523,6 +534,9 @@ img,svg{
     width: 40px;
     min-width:40px;
     cursor: pointer;
+}
+.next-btn:hover {
+    background-color: #f6f7f9;
 }
 .next-btn-arrow{
     display: flex;
